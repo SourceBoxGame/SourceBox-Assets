@@ -1,0 +1,5 @@
+ent_create player*
+fire_rocket_projectile
+Test_CreateEntity
+Test_SpawnRandomEntities
+impulse 101*

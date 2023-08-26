@@ -1,0 +1,6977 @@
+"Theme"
+{
+	"Resource|SourceScheme.res"
+	{
+		"Colors"
+		{
+			"White"		"255 255 255 255"
+			"OffWhite"		"221 221 221 255"
+			"DullWhite"		"190 190 190 255"
+			"Orange"		"247 154 16 255"
+			"DarkOrange"		"137 84 8 255"
+			"TransparentBlack"		"0 0 0 128"
+			"Black"		"0 0 0 255"
+			"Blank"		"0 0 0 0"
+			"SteamLightGreen"		"157 194 80 255"
+			"AchievementsLightGrey"		"79 79 79 255"
+			"AchievementsDarkGrey"		"55 55 55 255"
+			"AchievementsInactiveFG"		"130 130 130 255"
+		}
+		"BitmapFontFiles"
+		{
+			"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
+		}
+		"Fonts"
+		{
+			"DebugFixed"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"10"
+					"weight"		"500"
+					"antialias"		"1"
+				}
+			}
+			"DebugFixedSmall"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"7"
+					"weight"		"500"
+					"antialias"		"1"
+				}
+			}
+			"DefaultFixedOutline"
+			{
+				"1"
+				{
+					"name"		"Lucida Console"
+					"tall"		"10"
+					"tall_lodef"		"15"
+					"tall_hidef"		"20"
+					"weight"		"0"
+					"outline"		"1"
+				}
+			}
+			"Default"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"16"
+					"weight"		"500"
+				}
+			}
+			"DefaultBold"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"16"
+					"weight"		"1000"
+				}
+			}
+			"DefaultUnderline"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"16"
+					"weight"		"500"
+					"underline"		"1"
+				}
+			}
+			"DefaultSmall"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"12"
+					"weight"		"0"
+				}
+			}
+			"DefaultSmallDropShadow"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"13"
+					"weight"		"0"
+					"dropshadow"		"1"
+				}
+			}
+			"DefaultVerySmall"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"12"
+					"weight"		"0"
+				}
+			}
+			"DefaultLarge"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"18"
+					"weight"		"0"
+				}
+			}
+			"UiBold"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"12"
+					"weight"		"1000"
+				}
+			}
+			"MenuLarge"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"16"
+					"weight"		"600"
+					"antialias"		"1"
+				}
+			}
+			"AchievementTitleFont"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"1200"
+					"antialias"		"1"
+					"outline"		"1"
+				}
+			}
+			"AchievementTitleFontSmaller"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"18"
+					"weight"		"1200"
+					"antialias"		"1"
+				}
+			}
+			"AchievementDescriptionFont"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"15"
+					"weight"		"1200"
+					"antialias"		"1"
+					"outline"		"1"
+					"yres"		"0 480"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"1200"
+					"antialias"		"1"
+					"outline"		"1"
+					"yres"		"481 10000"
+				}
+			}
+			"ConsoleText"
+			{
+				"1"
+				{
+					"name"		"Lucida Console"
+					"tall"		"10"
+					"weight"		"500"
+				}
+			}
+			"Marlett"
+			{
+				"1"
+				{
+					"name"		"Marlett"
+					"tall"		"14"
+					"weight"		"0"
+					"symbol"		"1"
+				}
+			}
+			"Trebuchet24"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"24"
+					"weight"		"900"
+				}
+			}
+			"Trebuchet20"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"20"
+					"weight"		"900"
+				}
+			}
+			"Trebuchet18"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"18"
+					"weight"		"900"
+				}
+			}
+			"HUDNumber"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"40"
+					"weight"		"900"
+				}
+			}
+			"HUDNumber1"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"41"
+					"weight"		"900"
+				}
+			}
+			"HUDNumber2"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"42"
+					"weight"		"900"
+				}
+			}
+			"HUDNumber3"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"43"
+					"weight"		"900"
+				}
+			}
+			"HUDNumber4"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"44"
+					"weight"		"900"
+				}
+			}
+			"HUDNumber5"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"45"
+					"weight"		"900"
+				}
+			}
+			"DefaultFixed"
+			{
+				"1"
+				{
+					"name"		"Lucida Console"
+					"tall"		"10"
+					"weight"		"0"
+				}
+			}
+			"DefaultFixedDropShadow"
+			{
+				"1"
+				{
+					"name"		"Lucida Console"
+					"tall"		"10"
+					"weight"		"0"
+					"dropshadow"		"1"
+				}
+			}
+			"CloseCaption_Normal"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"12"
+					"weight"		"500"
+					"antialias"		"1"
+				}
+			}
+			"CloseCaption_Italic"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"12"
+					"weight"		"500"
+					"italic"		"1"
+					"antialias"		"1"
+				}
+			}
+			"CloseCaption_Bold"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"12"
+					"weight"		"900"
+					"antialias"		"1"
+				}
+			}
+			"CloseCaption_BoldItalic"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"12"
+					"weight"		"900"
+					"italic"		"1"
+					"antialias"		"1"
+				}
+			}
+			"CloseCaption_Small"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"12"
+					"weight"		"900"
+					"range"		"0x0000 0x017F"
+					"antialias"		"1"
+				}
+			}
+			"TitleFont"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"72"
+					"weight"		"400"
+					"antialias"		"1"
+					"custom"		"1"
+				}
+			}
+			"TitleFont2"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"120"
+					"weight"		"400"
+					"antialias"		"1"
+					"custom"		"1"
+				}
+			}
+			"StatsTitle"
+			{
+				"1"
+				{
+					"name"		"Arial"
+					"weight"		"2000"
+					"tall"		"20"
+					"antialias"		"1"
+				}
+			}
+			"StatsText"
+			{
+				"1"
+				{
+					"name"		"Arial"
+					"weight"		"2000"
+					"tall"		"18"
+					"antialias"		"1"
+				}
+			}
+			"AchievementItemTitle"
+			{
+				"1"
+				{
+					"name"		"Arial"
+					"weight"		"1500"
+					"tall"		"16"
+					"antialias"		"1"
+				}
+			}
+			"AchievementItemDate"
+			{
+				"1"
+				{
+					"name"		"Arial"
+					"weight"		"1500"
+					"tall"		"16"
+					"antialias"		"1"
+				}
+			}
+			"StatsPageText"
+			{
+				"1"
+				{
+					"name"		"Arial"
+					"weight"		"1500"
+					"tall"		"14"
+					"antialias"		"1"
+				}
+			}
+			"AchievementItemTitleLarge"
+			{
+				"1"
+				{
+					"name"		"Arial"
+					"weight"		"1500"
+					"tall"		"18"
+					"antialias"		"1"
+				}
+			}
+			"AchievementItemDescription"
+			{
+				"1"
+				{
+					"name"		"Arial"
+					"weight"		"1000"
+					"tall"		"14"
+					"antialias"		"1"
+				}
+			}
+			"ServerBrowserTitle"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"35"
+					"tall_lodef"		"40"
+					"weight"		"500"
+					"additive"		"0"
+					"antialias"		"1"
+				}
+			}
+			"ServerBrowserSmall"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"16"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"480 599"
+				}
+				"2"
+				{
+					"name"		"Tahoma"
+					"tall"		"16"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Tahoma"
+					"tall"		"16"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"768 1023"
+					"antialias"		"1"
+				}
+				"4"
+				{
+					"name"		"Tahoma"
+					"tall"		"19"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1024 1199"
+					"antialias"		"1"
+				}
+				"5"
+				{
+					"name"		"Tahoma"
+					"tall"		"19"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1200 6000"
+					"antialias"		"1"
+				}
+			}
+		}
+		"CustomFontFiles"
+		{
+			"1"		"resource/HALFLIFE2.ttf"
+			"2"		"resource/HL2EP2.ttf"
+			"3"		"resource/marlett.ttf"
+			"4"		"resource/linux_fonts/DejaVuSans.ttf"
+			"5"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+			"6"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+			"7"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+			"8"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+			"9"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+			"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		}
+		"name"
+		{
+			"name"		"Tracker"
+		}
+		"BaseSettings"
+		{
+			"Border.Bright"		"255 255 255 255"
+			"Border.Dark"		"247 154 16 255"
+			"Border.Selection"		"0 0 0 255"
+			"Button.TextColor"		"255 255 255 255"
+			"Button.BgColor"		"0 0 0 0"
+			"Button.ArmedTextColor"		"255 255 255 255"
+			"Button.ArmedBgColor"		"0 0 0 0"
+			"Button.DepressedTextColor"		"255 255 255 255"
+			"Button.DepressedBgColor"		"0 0 0 0"
+			"Button.FocusBorderColor"		"0 0 0 255"
+			"CheckButton.TextColor"		"255 255 255 255"
+			"CheckButton.SelectedTextColor"		"255 255 255 255"
+			"CheckButton.BgColor"		"0 0 0 128"
+			"CheckButton.Border1"		"247 154 16 255"
+			"CheckButton.Border2"		"255 255 255 255"
+			"CheckButton.Check"		"255 255 255 255"
+			"CheckButton.HighlightFgColor"		"221 221 221 255"
+			"CheckButton.ArmedBgColor"		"0 0 0 0"
+			"CheckButton.DepressedBgColor"		"0 0 0 0"
+			"CheckButton.DisabledBgColor"		"0 0 0 128"
+			"ComboBoxButton.ArrowColor"		"190 190 190 255"
+			"ComboBoxButton.ArmedArrowColor"		"255 255 255 255"
+			"ComboBoxButton.BgColor"		"0 0 0 0"
+			"ComboBoxButton.DisabledBgColor"		"0 0 0 0"
+			"Frame.TitleTextInsetX"		"16"
+			"Frame.ClientInsetX"		"8"
+			"Frame.ClientInsetY"		"8"
+			"Frame.BgColor"		"0 0 0 224"
+			"Frame.OutOfFocusBgColor"		"0 0 0 32"
+			"Frame.FocusTransitionEffectTime"		"0.100000"
+			"Frame.TransitionEffectTime"		"0.100000"
+			"Frame.AutoSnapRange"		"8"
+			"FrameGrip.Color1"		"247 154 16 255"
+			"FrameGrip.Color2"		"247 154 16 255"
+			"FrameTitleButton.FgColor"		"200 200 200 196"
+			"FrameTitleButton.BgColor"		"0 0 0 0"
+			"FrameTitleButton.DisabledFgColor"		"255 255 255 192"
+			"FrameTitleButton.DisabledBgColor"		"0 0 0 0"
+			"FrameSystemButton.FgColor"		"0 0 0 0"
+			"FrameSystemButton.BgColor"		"0 0 0 0"
+			"FrameTitleBar.Font"		"UiBold"
+			"FrameTitleBar.Font"		"DefaultLarge"
+			"FrameTitleBar.TextColor"		"0 0 0 255"
+			"FrameTitleBar.BgColor"		"247 154 16 255"
+			"FrameTitleBar.DisabledTextColor"		"255 255 255 192"
+			"FrameTitleBar.DisabledBgColor"		"0 0 0 0"
+			"GraphPanel.FgColor"		"255 255 255 255"
+			"GraphPanel.BgColor"		"0 0 0 128"
+			"Label.TextDullColor"		"190 190 190 255"
+			"Label.TextColor"		"221 221 221 255"
+			"Label.TextBrightColor"		"255 255 255 255"
+			"Label.SelectedTextColor"		"255 255 255 255"
+			"Label.BgColor"		"0 0 0 0"
+			"Label.DisabledFgColor1"		"137 84 8 255"
+			"Label.DisabledFgColor2"		"0 0 0 255"
+			"ListPanel.TextColor"		"255 255 255 255"
+			"ListPanel.TextBgColor"		"0 0 0 0"
+			"ListPanel.BgColor"		"0 0 0 128"
+			"ListPanel.SelectedTextColor"		"0 0 0 255"
+			"ListPanel.SelectedBgColor"		"247 154 16 255"
+			"ListPanel.SelectedOutOfFocusBgColor"		"255 155 0 128"
+			"ListPanel.EmptyListInfoTextColor"		"221 221 221 255"
+			"Menu.TextColor"		"255 255 255 255"
+			"Menu.BgColor"		"0 0 0 255"
+			"Menu.ArmedTextColor"		"0 0 0 255"
+			"Menu.ArmedBgColor"		"247 154 16 255"
+			"Menu.TextInset"		"6"
+			"Panel.FgColor"		"190 190 190 255"
+			"Panel.BgColor"		"0 0 0 0"
+			"ProgressBar.FgColor"		"255 255 255 255"
+			"ProgressBar.BgColor"		"0 0 0 128"
+			"PropertySheet.TextColor"		"255 255 255 255"
+			"PropertySheet.SelectedTextColor"		"255 255 255 255"
+			"PropertySheet.TransitionEffectTime"		"0.250000"
+			"RadioButton.TextColor"		"255 255 255 255"
+			"RadioButton.SelectedTextColor"		"247 154 16 255"
+			"RichText.TextColor"		"255 255 255 255"
+			"RichText.BgColor"		"0 0 0 128"
+			"RichText.SelectedTextColor"		"0 0 0 255"
+			"RichText.SelectedBgColor"		"247 154 16 255"
+			"ScrollBar.Wide"		"16"
+			"ScrollBarButton.FgColor"		"255 255 255 255"
+			"ScrollBarButton.BgColor"		"0 0 0 0"
+			"ScrollBarButton.ArmedFgColor"		"255 255 255 255"
+			"ScrollBarButton.ArmedBgColor"		"0 0 0 0"
+			"ScrollBarButton.DepressedFgColor"		"255 255 255 255"
+			"ScrollBarButton.DepressedBgColor"		"0 0 0 0"
+			"ScrollBarSlider.FgColor"		"0 0 0 0"
+			"ScrollBarSlider.BgColor"		"0 0 0 64"
+			"SectionedListPanel.HeaderTextColor"		"255 255 255 255"
+			"SectionedListPanel.HeaderBgColor"		"0 0 0 0"
+			"SectionedListPanel.DividerColor"		"0 0 0 255"
+			"SectionedListPanel.TextColor"		"190 190 190 255"
+			"SectionedListPanel.BrightTextColor"		"255 255 255 255"
+			"SectionedListPanel.BgColor"		"0 0 0 128"
+			"SectionedListPanel.SelectedTextColor"		"0 0 0 255"
+			"SectionedListPanel.SelectedBgColor"		"247 154 16 255"
+			"SectionedListPanel.OutOfFocusSelectedTextColor"		"0 0 0 255"
+			"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 155 0 128"
+			"Slider.NobColor"		"0 0 0 255"
+			"Slider.TextColor"		"255 255 255 255"
+			"Slider.TrackColor"		"255 255 255 255"
+			"Slider.DisabledTextColor1"		"117 117 117 255"
+			"Slider.DisabledTextColor2"		"30 30 30 255"
+			"TextEntry.TextColor"		"221 221 221 255"
+			"TextEntry.BgColor"		"0 0 0 128"
+			"TextEntry.CursorColor"		"221 221 221 255"
+			"TextEntry.DisabledTextColor"		"190 190 190 255"
+			"TextEntry.DisabledBgColor"		"0 0 0 0"
+			"TextEntry.SelectedTextColor"		"0 0 0 255"
+			"TextEntry.SelectedBgColor"		"247 154 16 255"
+			"TextEntry.OutOfFocusSelectedBgColor"		"255 155 0 128"
+			"TextEntry.FocusEdgeColor"		"0 0 0 196"
+			"ToggleButton.SelectedTextColor"		"255 255 255 255"
+			"Tooltip.TextColor"		"0 0 0 196"
+			"Tooltip.BgColor"		"247 154 16 255"
+			"Knob.BgColor"		"0 0 0 128"
+			"Knob.DarkColor"		"247 154 16 255"
+			"Knob.LightColor"		"255 255 255 255"
+			"Knob.NotchColor"		"255 255 255 255"
+			"TreeView.BgColor"		"0 0 0 128"
+			"WizardSubPanel.BgColor"		"0 0 0 0"
+			"MainMenu.TextColor"		"255 255 255 255"
+			"MainMenu.ArmedTextColor"		"247 154 16 255"
+			"MainMenu.DepressedTextColor"		"137 84 8 255"
+			"MainMenu.MenuItemHeight"		"32"
+			"MainMenu.Inset"		"32"
+			"MainMenu.Backdrop"		"0 255 0 156"
+			"Console.TextColor"		"255 255 255 255"
+			"Console.DevTextColor"		"255 255 255 255"
+			"NewGame.TextColor"		"255 255 255 255"
+			"NewGame.FillColor"		"0 0 0 255"
+			"NewGame.SelectionColor"		"247 154 16 255"
+			"NewGame.DisabledColor"		"128 128 128 196"
+			"QuickListBGDeselected"		"55 55 55 255"
+			"QuickListBGSelected"		"79 79 79 255"
+			"Border.DarkBorderDark"		"40 40 40 196"
+			"Border.SelectionBorderSelection"		"0 0 0 196"
+			"ListPanel.DisabledTextColor"		"LabelDimText"
+			"ListPanel.DisabledSelectedTextColor"		"ListBgColor"
+			"FrameSystemButton.Icon"		"TitleBarIcon"
+			"FrameSystemButton.DisabledIcon"		"TitleBarDisabledIcon"
+		}
+		"Borders"
+		{
+			"BaseBorder"
+			{
+				"Left"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 1"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"1 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonBorder"
+			{
+				"Left"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ComboBoxBorder"
+			{
+				"Left"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 1"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"1 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"MenuBorder"
+			{
+				"Left"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"BrowserBorder"
+			{
+				"Left"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 1"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"1 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"PropertySheetBorder"
+			{
+				"Left"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"FrameBorder"
+			{
+				"backgroundtype"		"2"
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"DepressedBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"RaisedBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonBorder"
+			{
+				"backgroundtype"		"0"
+			}
+			"TitleButtonDisabledBorder"
+			{
+				"backgroundtype"		"0"
+			}
+			"TitleButtonDepressedBorder"
+			{
+				"backgroundtype"		"0"
+			}
+			"ScrollBarButtonBorder"
+			{
+				"inset"		"2 2 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ScrollBarButtonDepressedBorder"
+			{
+				"inset"		"2 2 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TabBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TabActiveBorder"
+			{
+				"inset"		"0 0 1 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ToolTipBorder"
+			{
+				"inset"		"0 0 1 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonKeyFocusBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"0 0 0 255"
+						"offset"		"0 0"
+					}
+					"2"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 1"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"0 0 0 255"
+						"offset"		"0 0"
+					}
+					"2"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"1 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"0 0 0 255"
+						"offset"		"0 0"
+					}
+					"2"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"1 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"0 0 0 255"
+						"offset"		"0 0"
+					}
+					"2"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonDepressedBorder"
+			{
+				"inset"		"2 1 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"247 154 16 255"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"255 255 255 255"
+						"offset"		"0 0"
+					}
+				}
+			}
+		}
+	}
+	"resource|ClientScheme.res"
+	{
+		"Colors"
+		{
+			"Orange"		"255 176 0 255"
+			"OrangeDim"		"255 176 0 120"
+			"LightOrange"		"188 112 0 128"
+			"Red"		"192 28 0 140"
+			"Black"		"0 0 0 196"
+			"TransparentBlack"		"0 0 0 196"
+			"TransparentLightBlack"		"0 0 0 90"
+			"Blank"		"0 0 0 0"
+			"ForTesting"		"255 0 0 32"
+			"ForTesting_Magenta"		"255 0 255 255"
+			"ForTesting_MagentaDim"		"255 0 255 120"
+		}
+		"BaseSettings"
+		{
+			"FgColor"		"255 220 0 100"
+			"BgColor"		"0 0 0 76"
+			"Panel.FgColor"		"255 220 0 100"
+			"Panel.BgColor"		"0 0 0 76"
+			"BrightFg"		"255 220 0 255"
+			"DamagedBg"		"180 0 0 200"
+			"DamagedFg"		"180 0 0 230"
+			"BrightDamagedFg"		"255 0 0 255"
+			"SelectionNumberFg"		"255 220 0 255"
+			"SelectionTextFg"		"255 220 0 255"
+			"SelectionEmptyBoxBg"		"0 0 0 80"
+			"SelectionBoxBg"		"0 0 0 80"
+			"SelectionSelectedBoxBg"		"0 0 0 80"
+			"ZoomReticleColor"		"255 220 0 255"
+			"Yellowish"		"255 160 0 255"
+			"Normal"		"255 208 64 255"
+			"Caution"		"255 48 0 255"
+			"Main.Title1.X"		"76"
+			"Main.Title1.Y"		"184"
+			"Main.Title1.Color"		"255 255 255 255"
+			"Main.Title2.X"		"315"
+			"Main.Title2.Y"		"222"
+			"Main.Title2.Color"		"255 255 255 180"
+			"Main.Menu.X"		"56"
+			"Main.Menu.Y"		"240"
+			"Main.BottomBorder"		"32"
+			"Border.Bright"		"LightOrange"
+			"Border.Dark"		"LightOrange"
+			"Border.Selection"		"Blank"
+			"Button.TextColor"		"Orange"
+			"Button.BgColor"		"Blank"
+			"Button.ArmedTextColor"		"Orange"
+			"Button.ArmedBgColor"		"Red"
+			"Button.DepressedTextColor"		"Orange"
+			"Button.DepressedBgColor"		"Red"
+			"CheckButton.TextColor"		"Orange"
+			"CheckButton.SelectedTextColor"		"Orange"
+			"CheckButton.BgColor"		"TransparentBlack"
+			"CheckButton.Border1"		"Border.Dark"
+			"CheckButton.Border2"		"Border.Bright"
+			"CheckButton.Check"		"Orange"
+			"ComboBoxButton.ArrowColor"		"Orange"
+			"ComboBoxButton.ArmedArrowColor"		"Orange"
+			"ComboBoxButton.BgColor"		"TransparentBlack"
+			"ComboBoxButton.DisabledBgColor"		"Blank"
+			"Frame.BgColor"		"Orange"
+			"Frame.OutOfFocusBgColor"		"Orange"
+			"Frame.FocusTransitionEffectTime"		"0.000000"
+			"Frame.TransitionEffectTime"		"0.000000"
+			"Frame.AutoSnapRange"		"0"
+			"FrameGrip.Color1"		"Blank"
+			"FrameGrip.Color2"		"Blank"
+			"FrameTitleButton.FgColor"		"Blank"
+			"FrameTitleButton.BgColor"		"Blank"
+			"FrameTitleButton.DisabledFgColor"		"Blank"
+			"FrameTitleButton.DisabledBgColor"		"Blank"
+			"FrameSystemButton.FgColor"		"Blank"
+			"FrameSystemButton.BgColor"		"Blank"
+			"FrameTitleBar.TextColor"		"Orange"
+			"FrameTitleBar.BgColor"		"Blank"
+			"FrameTitleBar.DisabledTextColor"		"Orange"
+			"FrameTitleBar.DisabledBgColor"		"Blank"
+			"GraphPanel.FgColor"		"Orange"
+			"GraphPanel.BgColor"		"TransparentBlack"
+			"Label.TextDullColor"		"Orange"
+			"Label.TextColor"		"Orange"
+			"Label.TextBrightColor"		"Orange"
+			"Label.SelectedTextColor"		"Orange"
+			"Label.BgColor"		"Blank"
+			"Label.DisabledFgColor1"		"Blank"
+			"Label.DisabledFgColor2"		"LightOrange"
+			"ListPanel.TextColor"		"Orange"
+			"ListPanel.BgColor"		"TransparentBlack"
+			"ListPanel.SelectedTextColor"		"Black"
+			"ListPanel.SelectedBgColor"		"Red"
+			"ListPanel.SelectedOutOfFocusBgColor"		"Red"
+			"ListPanel.EmptyListInfoTextColor"		"Orange"
+			"Menu.TextColor"		"Orange"
+			"Menu.BgColor"		"TransparentBlack"
+			"Menu.ArmedTextColor"		"Orange"
+			"Menu.ArmedBgColor"		"Red"
+			"Menu.TextInset"		"6"
+			"Chat.TypingText"		"Orange"
+			"Panel.FgColor"		"OrangeDim"
+			"Panel.BgColor"		"blank"
+			"ProgressBar.FgColor"		"Orange"
+			"ProgressBar.BgColor"		"TransparentBlack"
+			"PropertySheet.TextColor"		"Orange"
+			"PropertySheet.SelectedTextColor"		"Orange"
+			"PropertySheet.TransitionEffectTime"		"0.250000"
+			"RadioButton.TextColor"		"Orange"
+			"RadioButton.SelectedTextColor"		"Orange"
+			"RichText.TextColor"		"Orange"
+			"RichText.BgColor"		"Blank"
+			"RichText.SelectedTextColor"		"Orange"
+			"RichText.SelectedBgColor"		"Blank"
+			"ScrollBarButton.FgColor"		"Orange"
+			"ScrollBarButton.BgColor"		"Blank"
+			"ScrollBarButton.ArmedFgColor"		"Orange"
+			"ScrollBarButton.ArmedBgColor"		"Blank"
+			"ScrollBarButton.DepressedFgColor"		"Orange"
+			"ScrollBarButton.DepressedBgColor"		"Blank"
+			"ScrollBarSlider.FgColor"		"Blank"
+			"ScrollBarSlider.BgColor"		"Blank"
+			"SectionedListPanel.HeaderTextColor"		"Orange"
+			"SectionedListPanel.HeaderBgColor"		"Blank"
+			"SectionedListPanel.DividerColor"		"Black"
+			"SectionedListPanel.TextColor"		"Orange"
+			"SectionedListPanel.BrightTextColor"		"Orange"
+			"SectionedListPanel.BgColor"		"TransparentLightBlack"
+			"SectionedListPanel.SelectedTextColor"		"Black"
+			"SectionedListPanel.SelectedBgColor"		"Red"
+			"SectionedListPanel.OutOfFocusSelectedTextColor"		"Black"
+			"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 255 255 32"
+			"Slider.NobColor"		"108 108 108 255"
+			"Slider.TextColor"		"127 140 127 255"
+			"Slider.TrackColor"		"31 31 31 255"
+			"Slider.DisabledTextColor1"		"117 117 117 255"
+			"Slider.DisabledTextColor2"		"30 30 30 255"
+			"TextEntry.TextColor"		"Orange"
+			"TextEntry.BgColor"		"TransparentBlack"
+			"TextEntry.CursorColor"		"Orange"
+			"TextEntry.DisabledTextColor"		"Orange"
+			"TextEntry.DisabledBgColor"		"Blank"
+			"TextEntry.SelectedTextColor"		"Black"
+			"TextEntry.SelectedBgColor"		"Red"
+			"TextEntry.OutOfFocusSelectedBgColor"		"Red"
+			"TextEntry.FocusEdgeColor"		"TransparentBlack"
+			"ToggleButton.SelectedTextColor"		"Orange"
+			"Tooltip.TextColor"		"TransparentBlack"
+			"Tooltip.BgColor"		"Red"
+			"TreeView.BgColor"		"TransparentBlack"
+			"WizardSubPanel.BgColor"		"Blank"
+			"FgColor"		"Orange"
+			"BgColor"		"TransparentBlack"
+			"ViewportBG"		"Blank"
+			"team0"		"204 204 204 255"
+			"team1"		"255 64 64 255"
+			"team2"		"153 204 255 255"
+			"MapDescriptionText"		"Orange"
+			"CT_Blue"		"153 204 255 255"
+			"T_Red"		"255 64 64 255"
+			"Hostage_Yellow"		"Panel.FgColor"
+			"HudIcon_Green"		"0 160 0 255"
+			"HudIcon_Red"		"160 0 0 255"
+			"ItemColor"		"255 167 42 200"
+			"MenuColor"		"233 208 173 255"
+			"MenuBoxBg"		"0 0 0 100"
+			"SelectionNumberFg"		"255 220 0 200"
+			"SelectionTextFg"		"255 220 0 200"
+			"SelectionEmptyBoxBg"		"0 0 0 80"
+			"SelectionBoxBg"		"0 0 0 80"
+			"SelectionSelectedBoxBg"		"0 0 0 190"
+			"HintMessageFg"		"255 255 255 255"
+			"HintMessageBg"		"0 0 0 60"
+			"ProgressBarFg"		"255 30 13 255"
+			"Main.Title1.X"		"32"
+			"Main.Title1.Y"		"180"
+			"Main.Title1.Color"		"255 255 255 255"
+			"Main.Title2.X"		"380"
+			"Main.Title2.Y"		"205"
+			"Main.Title2.Color"		"255 255 255 80"
+			"Main.Title3.X"		"460"
+			"Main.Title3.Y"		"-10"
+			"Main.Title3.Color"		"255 255 0 255"
+			"Main.Menu.X"		"32"
+			"Main.Menu.Y"		"248"
+			"Main.BottomBorder"		"32"
+			"Border.DarkBorderDark"		"40 40 40 196"
+			"Border.SelectionBorderSelection"		"0 0 0 196"
+			"Button.FocusBorderColor"		"0 0 0 255"
+			"Frame.TitleTextInsetX"		"32"
+			"Frame.ClientInsetX"		"8"
+			"Frame.ClientInsetY"		"6"
+			"FrameTitleBar.Font"		"Default"
+			"ListPanel.TextBgColor"		"Menu/ArmedBgColor"
+			"ListPanel.DisabledTextColor"		"LabelDimText"
+			"ListPanel.DisabledSelectedTextColor"		"ListBgColor"
+			"ScrollBar.Wide"		"19"
+			"FrameSystemButton.Icon"		"TitleBarIcon"
+			"FrameSystemButton.DisabledIcon"		"TitleBarDisabledIcon"
+		}
+		"Fonts"
+		{
+			"DebugFixed"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"14"
+					"weight"		"400"
+					"antialias"		"1"
+				}
+			}
+			"DebugFixedSmall"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"14"
+					"weight"		"400"
+					"antialias"		"1"
+				}
+			}
+			"Default"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"9"
+					"weight"		"700"
+					"antialias"		"1"
+					"yres"		"1 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"700"
+					"antialias"		"1"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"768 1023"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"1024 1199"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"24"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"1200 10000"
+					"additive"		"1"
+				}
+			}
+			"DefaultSmall"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"480 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"13"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"768 1023"
+					"antialias"		"1"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1024 1199"
+					"antialias"		"1"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"24"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1200 6000"
+					"antialias"		"1"
+				}
+				"6"
+				{
+					"name"		"Arial"
+					"tall"		"12"
+					"range"		"0x0000 0x00FF"
+					"weight"		"0"
+				}
+			}
+			"DefaultVerySmall"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"480 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"13"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"768 1023"
+					"antialias"		"1"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1024 1199"
+					"antialias"		"1"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"24"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1200 6000"
+					"antialias"		"1"
+				}
+				"6"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"range"		"0x0000 0x00FF"
+					"weight"		"0"
+				}
+				"7"
+				{
+					"name"		"Arial"
+					"tall"		"11"
+					"range"		"0x0000 0x00FF"
+					"weight"		"0"
+				}
+			}
+			"MenuTitle"
+			{
+				"1"
+				{
+					"name"		"Verdana Bold"
+					"tall"		"18"
+					"weight"		"500"
+				}
+			}
+			"WeaponIcons"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"64"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"WeaponIconsSelected"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"64"
+					"weight"		"0"
+					"antialias"		"1"
+					"blur"		"5"
+					"scanlines"		"2"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"Crosshairs"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"40"
+					"weight"		"0"
+					"antialias"		"0"
+					"additive"		"1"
+					"custom"		"1"
+					"yres"		"1 10000"
+				}
+			}
+			"QuickInfo"
+			{
+				"1"
+				{
+					"name"		"HL2cross"
+					"tall"		"28"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"HudNumbers"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"32"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"HudNumbersGlow"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"32"
+					"weight"		"0"
+					"blur"		"4"
+					"scanlines"		"2"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"HudNumbersSmall"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"16"
+					"weight"		"1000"
+					"additive"		"1"
+					"antialias"		"1"
+					"custom"		"1"
+				}
+			}
+			"HudSelectionNumbers"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"11"
+					"weight"		"700"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"HudHintTextLarge"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"1000"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"HudHintTextSmall"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"11"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"HudSelectionText"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"8"
+					"weight"		"700"
+					"antialias"		"1"
+					"yres"		"1 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"10"
+					"weight"		"700"
+					"antialias"		"1"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"768 1023"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"16"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"1024 1199"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"17"
+					"weight"		"1000"
+					"antialias"		"1"
+					"yres"		"1200 10000"
+				}
+			}
+			"BudgetLabel"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"14"
+					"weight"		"400"
+					"outline"		"1"
+				}
+			}
+			"DebugOverlay"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"14"
+					"weight"		"400"
+					"outline"		"1"
+				}
+			}
+			"CloseCaption_Normal"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"26"
+					"tall"		"26"
+					"weight"		"500"
+				}
+			}
+			"CloseCaption_Italic"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"26"
+					"tall"		"26"
+					"weight"		"500"
+					"italic"		"1"
+				}
+			}
+			"CloseCaption_Bold"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"26"
+					"tall"		"26"
+					"weight"		"900"
+				}
+			}
+			"CloseCaption_BoldItalic"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"26"
+					"tall"		"26"
+					"weight"		"900"
+					"italic"		"1"
+				}
+			}
+			"CloseCaption_Small"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"16"
+					"tall_hidef"		"24"
+					"weight"		"900"
+					"range"		"0x0000 0x017F"
+				}
+			}
+			"Marlett"
+			{
+				"1"
+				{
+					"name"		"Marlett"
+					"tall"		"14"
+					"weight"		"0"
+					"symbol"		"1"
+				}
+			}
+			"Trebuchet24"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"24"
+					"weight"		"900"
+					"range"		"0x0000 0x007F"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"Trebuchet18"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"18"
+					"weight"		"900"
+				}
+			}
+			"ClientTitleFont"
+			{
+				"1"
+				{
+					"name"		"HL2MP"
+					"tall"		"46"
+					"weight"		"0"
+					"additive"		"0"
+					"antialias"		"1"
+				}
+			}
+			"CreditsLogo"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"128"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"CreditsText"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"20"
+					"weight"		"900"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"CreditsOutroLogos"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"48"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"CreditsOutroText"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"9"
+					"weight"		"900"
+					"antialias"		"1"
+				}
+			}
+			"CenterPrintText"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"18"
+					"weight"		"900"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"ChatFont"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"700"
+					"yres"		"480 599"
+					"dropshadow"		"1"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"13"
+					"weight"		"700"
+					"yres"		"600 767"
+					"dropshadow"		"1"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"700"
+					"yres"		"768 1023"
+					"dropshadow"		"1"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"700"
+					"yres"		"1024 1199"
+					"dropshadow"		"1"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"24"
+					"weight"		"700"
+					"yres"		"1200 10000"
+					"dropshadow"		"1"
+				}
+			}
+			"TargetID"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"24"
+					"weight"		"900"
+					"range"		"0x0000 0x007F"
+					"antialias"		"1"
+					"additive"		"0"
+				}
+			}
+			"HL2MPTypeDeath"
+			{
+				"1"
+				{
+					"name"		"HL2MP"
+					"tall"		"32"
+					"weight"		"0"
+					"additive"		"1"
+					"antialias"		"1"
+				}
+			}
+			"DefaultVerySmallFallBack"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"10"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"480 599"
+					"antialias"		"1"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"600 1199"
+					"antialias"		"1"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"15"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1200 6000"
+					"antialias"		"1"
+				}
+			}
+			"NewWeaponIcons"
+			{
+				"1"
+				{
+					"name"		"RealBeta's Weapon Icons"
+					"tall"		"64"
+					"tall_hidef"		"58"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"NewWeaponIconsSelected"
+			{
+				"1"
+				{
+					"name"		"RealBeta's Weapon Icons"
+					"tall"		"64"
+					"tall_hidef"		"58"
+					"weight"		"0"
+					"antialias"		"1"
+					"blur"		"5"
+					"scanlines"		"2"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"NewWeaponIconsSmall"
+			{
+				"1"
+				{
+					"name"		"RealBeta's Weapon Icons"
+					"tall"		"32"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+		}
+		"Borders"
+		{
+			"BaseBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonDisabledBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonDepressedBorder"
+			{
+				"inset"		"1 1 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ScrollBarButtonBorder"
+			{
+				"inset"		"1 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ScrollBarButtonDepressedBorder"
+			{
+				"inset"		"2 2 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonBorder"
+			{
+				"inset"		"0 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"FrameBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Orange"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Orange"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Orange"
+						"offset"		"0 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Orange"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TabBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TabActiveBorder"
+			{
+				"inset"		"0 0 1 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"ControlBG"
+						"offset"		"6 2"
+					}
+				}
+			}
+			"ToolTipBorder"
+			{
+				"inset"		"0 0 1 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonKeyFocusBorder"
+			{
+				"inset"		"0 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonDepressedBorder"
+			{
+				"inset"		"0 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ComboBoxBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"MenuBorder"
+			{
+				"inset"		"1 1 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"BrowserBorder"
+			{
+				"inset"		"0 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+		}
+		"CustomFontFiles"
+		{
+			"1"		"resource/HALFLIFE2.ttf"
+			"1"		"resource/HL2MP.ttf"
+			"2"		"resource/HL2crosshairs.ttf"
+			"3"		"resource/RealBetasWeaponIcons.ttf"
+		}
+		"name"
+		{
+			"name"		"Client"
+		}
+	}
+	"resource|ChatScheme.res"
+	{
+		"Colors"
+		{
+			"White"		"255 255 255 255"
+			"OffWhite"		"216 216 216 255"
+			"DullWhite"		"0 0 0 255"
+			"Orange"		"247 154 16 255"
+			"DarkOrange"		"137 84 8 255"
+			"TransparentBlack"		"0 0 0 128"
+			"Black"		"0 0 0 255"
+			"Blank"		"0 0 0 0"
+		}
+		"BaseSettings"
+		{
+			"Border.Bright"		"White"
+			"Border.Dark"		"Orange"
+			"Border.Selection"		"0 0 0 255"
+			"Button.TextColor"		"White"
+			"Button.BgColor"		"Blank"
+			"Button.ArmedTextColor"		"White"
+			"Button.ArmedBgColor"		"Blank"
+			"Button.DepressedTextColor"		"White"
+			"Button.DepressedBgColor"		"Blank"
+			"Button.FocusBorderColor"		"Black"
+			"CheckButton.TextColor"		"White"
+			"CheckButton.SelectedTextColor"		"White"
+			"CheckButton.BgColor"		"TransparentBlack"
+			"CheckButton.Border1"		"Border.Dark"
+			"CheckButton.Border2"		"Border.Bright"
+			"CheckButton.Check"		"White"
+			"CheckButton.HighlightFgColor"		"OffWhite"
+			"CheckButton.ArmedBgColor"		"Blank"
+			"CheckButton.DepressedBgColor"		"Blank"
+			"CheckButton.DisabledBgColor"		"TransparentBlack"
+			"ComboBoxButton.ArrowColor"		"DullWhite"
+			"ComboBoxButton.ArmedArrowColor"		"White"
+			"ComboBoxButton.BgColor"		"Blank"
+			"ComboBoxButton.DisabledBgColor"		"Blank"
+			"Frame.TitleTextInsetX"		"16"
+			"Frame.ClientInsetX"		"8"
+			"Frame.ClientInsetY"		"8"
+			"Frame.BgColor"		"0 0 0 224"
+			"Frame.OutOfFocusBgColor"		"0 0 0 32"
+			"Frame.FocusTransitionEffectTime"		"0.100000"
+			"Frame.TransitionEffectTime"		"0.100000"
+			"Frame.AutoSnapRange"		"8"
+			"FrameGrip.Color1"		"Orange"
+			"FrameGrip.Color2"		"Orange"
+			"FrameTitleButton.FgColor"		"200 200 200 196"
+			"FrameTitleButton.BgColor"		"Blank"
+			"FrameTitleButton.DisabledFgColor"		"255 255 255 192"
+			"FrameTitleButton.DisabledBgColor"		"Blank"
+			"FrameSystemButton.FgColor"		"Blank"
+			"FrameSystemButton.BgColor"		"Blank"
+			"FrameTitleBar.Font"		"UiBold"
+			"FrameTitleBar.Font"		"DefaultLarge"
+			"FrameTitleBar.TextColor"		"Black"
+			"FrameTitleBar.BgColor"		"Orange"
+			"FrameTitleBar.DisabledTextColor"		"255 255 255 192"
+			"FrameTitleBar.DisabledBgColor"		"Blank"
+			"GraphPanel.FgColor"		"White"
+			"GraphPanel.BgColor"		"TransparentBlack"
+			"Label.TextDullColor"		"DullWhite"
+			"Label.TextColor"		"OffWhite"
+			"Label.TextBrightColor"		"White"
+			"Label.SelectedTextColor"		"White"
+			"Label.BgColor"		"Blank"
+			"Label.DisabledFgColor1"		"DarkOrange"
+			"Label.DisabledFgColor2"		"Black"
+			"ListPanel.TextColor"		"White"
+			"ListPanel.TextBgColor"		"Blank"
+			"ListPanel.BgColor"		"TransparentBlack"
+			"ListPanel.SelectedTextColor"		"Black"
+			"ListPanel.SelectedBgColor"		"Orange"
+			"ListPanel.SelectedOutOfFocusBgColor"		"255 155 0 128"
+			"ListPanel.EmptyListInfoTextColor"		"OffWhite"
+			"Menu.TextColor"		"White"
+			"Menu.BgColor"		"Black"
+			"Menu.ArmedTextColor"		"Black"
+			"Menu.ArmedBgColor"		"Orange"
+			"Menu.TextInset"		"6"
+			"Panel.FgColor"		"255 255 255 255"
+			"Panel.BgColor"		"Blank"
+			"ProgressBar.FgColor"		"White"
+			"ProgressBar.BgColor"		"TransparentBlack"
+			"PropertySheet.TextColor"		"White"
+			"PropertySheet.SelectedTextColor"		"White"
+			"PropertySheet.TransitionEffectTime"		"0.250000"
+			"RadioButton.TextColor"		"White"
+			"RadioButton.SelectedTextColor"		"Orange"
+			"RichText.TextColor"		"White"
+			"RichText.BgColor"		"TransparentBlack"
+			"RichText.SelectedTextColor"		"Black"
+			"RichText.SelectedBgColor"		"Orange"
+			"ScrollBar.Wide"		"16"
+			"ScrollBarButton.FgColor"		"White"
+			"ScrollBarButton.BgColor"		"Blank"
+			"ScrollBarButton.ArmedFgColor"		"White"
+			"ScrollBarButton.ArmedBgColor"		"Blank"
+			"ScrollBarButton.DepressedFgColor"		"White"
+			"ScrollBarButton.DepressedBgColor"		"Blank"
+			"ScrollBarSlider.FgColor"		"Blank"
+			"ScrollBarSlider.BgColor"		"0 0 0 64"
+			"SectionedListPanel.HeaderTextColor"		"White"
+			"SectionedListPanel.HeaderBgColor"		"Blank"
+			"SectionedListPanel.DividerColor"		"Black"
+			"SectionedListPanel.TextColor"		"DullWhite"
+			"SectionedListPanel.BrightTextColor"		"White"
+			"SectionedListPanel.BgColor"		"TransparentBlack"
+			"SectionedListPanel.SelectedTextColor"		"Black"
+			"SectionedListPanel.SelectedBgColor"		"Orange"
+			"SectionedListPanel.OutOfFocusSelectedTextColor"		"Black"
+			"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 155 0 128"
+			"Slider.NobColor"		"Black"
+			"Slider.TextColor"		"White"
+			"Slider.TrackColor"		"White"
+			"Slider.DisabledTextColor1"		"117 117 117 255"
+			"Slider.DisabledTextColor2"		"30 30 30 255"
+			"TextEntry.TextColor"		"OffWhite"
+			"TextEntry.BgColor"		"TransparentBlack"
+			"TextEntry.CursorColor"		"OffWhite"
+			"TextEntry.DisabledTextColor"		"DullWhite"
+			"TextEntry.DisabledBgColor"		"Blank"
+			"TextEntry.SelectedTextColor"		"Black"
+			"TextEntry.SelectedBgColor"		"Orange"
+			"TextEntry.OutOfFocusSelectedBgColor"		"255 155 0 128"
+			"TextEntry.FocusEdgeColor"		"0 0 0 196"
+			"ToggleButton.SelectedTextColor"		"White"
+			"Tooltip.TextColor"		"0 0 0 196"
+			"Tooltip.BgColor"		"Orange"
+			"TreeView.BgColor"		"TransparentBlack"
+			"WizardSubPanel.BgColor"		"Blank"
+			"MainMenu.TextColor"		"White"
+			"MainMenu.ArmedTextColor"		"200 200 200 255"
+			"MainMenu.DepressedTextColor"		"192 186 80 255"
+			"MainMenu.MenuItemHeight"		"16"
+			"MainMenu.Inset"		"32"
+			"MainMenu.Backdrop"		"0 0 0 156"
+			"Console.TextColor"		"OffWhite"
+			"Console.DevTextColor"		"White"
+			"NewGame.TextColor"		"White"
+			"NewGame.FillColor"		"0 0 0 255"
+			"NewGame.SelectionColor"		"Orange"
+			"NewGame.DisabledColor"		"128 128 128 196"
+			"Border.DarkBorderDark"		"40 40 40 196"
+			"Border.SelectionBorderSelection"		"0 0 0 196"
+			"ListPanel.DisabledTextColor"		"LabelDimText"
+			"ListPanel.DisabledSelectedTextColor"		"ListBgColor"
+			"FrameSystemButton.Icon"		"TitleBarIcon"
+			"FrameSystemButton.DisabledIcon"		"TitleBarDisabledIcon"
+		}
+		"BitmapFontFiles"
+		{
+			"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
+		}
+		"Fonts"
+		{
+			"Default"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"480 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"13"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"768 1023"
+					"antialias"		"1"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"16"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1024 1199"
+					"antialias"		"1"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1200 6000"
+					"antialias"		"1"
+				}
+			}
+			"Marlett"
+			{
+				"1"
+				{
+					"name"		"Marlett"
+					"tall"		"10"
+					"weight"		"0"
+					"yres"		"480 599"
+					"symbol"		"1"
+				}
+				"2"
+				{
+					"name"		"Marlett"
+					"tall"		"14"
+					"weight"		"0"
+					"yres"		"600 767"
+					"symbol"		"1"
+				}
+				"3"
+				{
+					"name"		"Marlett"
+					"tall"		"13"
+					"weight"		"0"
+					"yres"		"768 1023"
+					"symbol"		"1"
+				}
+				"4"
+				{
+					"name"		"Marlett"
+					"tall"		"17"
+					"weight"		"0"
+					"yres"		"1024 1199"
+					"symbol"		"1"
+				}
+				"5"
+				{
+					"name"		"Marlett"
+					"tall"		"22"
+					"weight"		"0"
+					"yres"		"1200 10000"
+					"symbol"		"1"
+				}
+			}
+			"ChatFont"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"700"
+					"yres"		"480 599"
+					"dropshadow"		"1"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"700"
+					"yres"		"600 767"
+					"dropshadow"		"1"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"15"
+					"weight"		"700"
+					"yres"		"768 1023"
+					"dropshadow"		"1"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"17"
+					"weight"		"700"
+					"yres"		"1024 1199"
+					"dropshadow"		"1"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"22"
+					"weight"		"700"
+					"yres"		"1200 10000"
+					"dropshadow"		"1"
+				}
+			}
+		}
+		"Borders"
+		{
+			"BaseBorder"		"DepressedBorder"
+			"ButtonBorder"		"RaisedBorder"
+			"ComboBoxBorder"		"DepressedBorder"
+			"MenuBorder"		"RaisedBorder"
+			"BrowserBorder"		"DepressedBorder"
+			"PropertySheetBorder"		"RaisedBorder"
+			"FrameBorder"
+			{
+				"backgroundtype"		"2"
+			}
+			"DepressedBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"RaisedBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonBorder"
+			{
+				"backgroundtype"		"0"
+			}
+			"TitleButtonDisabledBorder"
+			{
+				"backgroundtype"		"0"
+			}
+			"TitleButtonDepressedBorder"
+			{
+				"backgroundtype"		"0"
+			}
+			"ScrollBarButtonBorder"
+			{
+				"inset"		"2 2 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ScrollBarButtonDepressedBorder"
+			{
+				"inset"		"2 2 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TabBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TabActiveBorder"
+			{
+				"inset"		"0 0 1 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ToolTipBorder"
+			{
+				"inset"		"0 0 1 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonKeyFocusBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Selection"
+						"offset"		"0 0"
+					}
+					"2"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Selection"
+						"offset"		"0 0"
+					}
+					"2"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Selection"
+						"offset"		"0 0"
+					}
+					"2"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Selection"
+						"offset"		"0 0"
+					}
+					"2"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonDepressedBorder"
+			{
+				"inset"		"2 1 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+		}
+		"CustomFontFiles"
+		{
+			"1"		"resource/HALFLIFE2.ttf"
+			"2"		"resource/HL2EP2.ttf"
+		}
+		"name"
+		{
+			"name"		"ChatScheme"
+		}
+	}
+	"resource|CombinePanelScheme.res"
+	{
+		"Colors"
+		{
+			"White"		"255 255 255 255"
+			"OffWhite"		"221 221 221 255"
+			"DullWhite"		"211 211 211 255"
+			"Red"		"255 0 0 255"
+			"TransparentBlack"		"0 0 0 128"
+			"DarkGrey"		"128 128 128 255"
+			"Black"		"0 0 0 255"
+			"Blank"		"0 0 0 0"
+		}
+		"BaseSettings"
+		{
+			"Border.Bright"		"255 255 255 255"
+			"Border.Dark"		"247 154 16 255"
+			"Border.Selection"		"255 255 255 196"
+			"Button.TextColor"		"White"
+			"Button.BgColor"		"Blank"
+			"Button.ArmedTextColor"		"White"
+			"Button.ArmedBgColor"		"Blank"
+			"Button.DepressedTextColor"		"White"
+			"Button.DepressedBgColor"		"Blank"
+			"Button.FocusBorderColor"		"Black"
+			"CheckButton.TextColor"		"DullWhite"
+			"CheckButton.SelectedTextColor"		"White"
+			"CheckButton.BgColor"		"TransparentBlack"
+			"CheckButton.Border1"		"Border.Dark"
+			"CheckButton.Border2"		"Border.Bright"
+			"CheckButton.Check"		"White"
+			"ComboBoxButton.ArrowColor"		"DullWhite"
+			"ComboBoxButton.ArmedArrowColor"		"White"
+			"ComboBoxButton.BgColor"		"Blank"
+			"ComboBoxButton.DisabledBgColor"		"Blank"
+			"Frame.TitleTextInsetX"		"12"
+			"Frame.ClientInsetX"		"8"
+			"Frame.ClientInsetY"		"6"
+			"Frame.BgColor"		"160 160 160 128"
+			"Frame.OutOfFocusBgColor"		"160 160 160 32"
+			"Frame.FocusTransitionEffectTime"		"0.300000"
+			"Frame.TransitionEffectTime"		"0.300000"
+			"Frame.AutoSnapRange"		"0"
+			"FrameGrip.Color1"		"200 200 200 196"
+			"FrameGrip.Color2"		"0 0 0 196"
+			"FrameTitleButton.FgColor"		"200 200 200 196"
+			"FrameTitleButton.BgColor"		"Blank"
+			"FrameTitleButton.DisabledFgColor"		"255 255 255 192"
+			"FrameTitleButton.DisabledBgColor"		"Blank"
+			"FrameSystemButton.FgColor"		"Blank"
+			"FrameSystemButton.BgColor"		"Blank"
+			"FrameTitleBar.TextColor"		"White"
+			"FrameTitleBar.BgColor"		"Blank"
+			"FrameTitleBar.DisabledTextColor"		"255 255 255 192"
+			"FrameTitleBar.DisabledBgColor"		"Blank"
+			"GraphPanel.FgColor"		"White"
+			"GraphPanel.BgColor"		"TransparentBlack"
+			"Label.TextDullColor"		"Black"
+			"Label.TextColor"		"DarkGrey"
+			"Label.TextBrightColor"		"Red"
+			"Label.SelectedTextColor"		"White"
+			"Label.BgColor"		"Blank"
+			"Label.DisabledFgColor1"		"117 117 117 255"
+			"Label.DisabledFgColor2"		"30 30 30 255"
+			"ListPanel.TextColor"		"OffWhite"
+			"ListPanel.BgColor"		"TransparentBlack"
+			"ListPanel.SelectedTextColor"		"Black"
+			"ListPanel.SelectedBgColor"		"255 155 0 255"
+			"ListPanel.SelectedOutOfFocusBgColor"		"255 155 0 128"
+			"ListPanel.EmptyListInfoTextColor"		"OffWhite"
+			"Menu.TextColor"		"White"
+			"Menu.BgColor"		"160 160 160 64"
+			"Menu.ArmedTextColor"		"Black"
+			"Menu.ArmedBgColor"		"255 155 0 255"
+			"Menu.TextInset"		"6"
+			"Panel.FgColor"		"DullWhite"
+			"Panel.BgColor"		"Blank"
+			"ProgressBar.FgColor"		"White"
+			"ProgressBar.BgColor"		"TransparentBlack"
+			"PropertySheet.TextColor"		"OffWhite"
+			"PropertySheet.SelectedTextColor"		"White"
+			"PropertySheet.TransitionEffectTime"		"0.250000"
+			"RadioButton.TextColor"		"DullWhite"
+			"RadioButton.SelectedTextColor"		"White"
+			"RichText.TextColor"		"OffWhite"
+			"RichText.BgColor"		"TransparentBlack"
+			"RichText.SelectedTextColor"		"Black"
+			"RichText.SelectedBgColor"		"255 155 0 255"
+			"ScrollBar.Wide"		"17"
+			"ScrollBarButton.FgColor"		"White"
+			"ScrollBarButton.BgColor"		"Blank"
+			"ScrollBarButton.ArmedFgColor"		"White"
+			"ScrollBarButton.ArmedBgColor"		"Blank"
+			"ScrollBarButton.DepressedFgColor"		"White"
+			"ScrollBarButton.DepressedBgColor"		"Blank"
+			"ScrollBarSlider.FgColor"		"Blank"
+			"ScrollBarSlider.BgColor"		"255 255 255 64"
+			"SectionedListPanel.HeaderTextColor"		"White"
+			"SectionedListPanel.HeaderBgColor"		"Blank"
+			"SectionedListPanel.DividerColor"		"Black"
+			"SectionedListPanel.TextColor"		"DullWhite"
+			"SectionedListPanel.BrightTextColor"		"White"
+			"SectionedListPanel.BgColor"		"TransparentBlack"
+			"SectionedListPanel.SelectedTextColor"		"Black"
+			"SectionedListPanel.SelectedBgColor"		"255 155 0 255"
+			"SectionedListPanel.OutOfFocusSelectedTextColor"		"Black"
+			"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 155 0 128"
+			"Slider.NobColor"		"108 108 108 255"
+			"Slider.TextColor"		"127 140 127 255"
+			"Slider.TrackColor"		"31 31 31 255"
+			"Slider.DisabledTextColor1"		"117 117 117 255"
+			"Slider.DisabledTextColor2"		"30 30 30 255"
+			"TextEntry.TextColor"		"OffWhite"
+			"TextEntry.BgColor"		"TransparentBlack"
+			"TextEntry.CursorColor"		"OffWhite"
+			"TextEntry.DisabledTextColor"		"DullWhite"
+			"TextEntry.DisabledBgColor"		"Blank"
+			"TextEntry.SelectedTextColor"		"Black"
+			"TextEntry.SelectedBgColor"		"255 155 0 255"
+			"TextEntry.OutOfFocusSelectedBgColor"		"255 155 0 128"
+			"TextEntry.FocusEdgeColor"		"0 0 0 196"
+			"ToggleButton.SelectedTextColor"		"White"
+			"Tooltip.TextColor"		"0 0 0 196"
+			"Tooltip.BgColor"		"255 155 0 255"
+			"TreeView.BgColor"		"TransparentBlack"
+			"WizardSubPanel.BgColor"		"Blank"
+			"MainMenu.TextColor"		"White"
+			"MainMenu.ArmedTextColor"		"200 200 200 255"
+			"MainMenu.DepressedTextColor"		"192 186 80 255"
+			"MainMenu.MenuItemHeight"		"30"
+			"MainMenu.Inset"		"32"
+			"Console.TextColor"		"OffWhite"
+			"Console.DevTextColor"		"White"
+			"NewGame.TextColor"		"White"
+			"NewGame.FillColor"		"0 0 0 255"
+			"NewGame.SelectionColor"		"255 155 0 255"
+			"NewGame.DisabledColor"		"128 128 128 196"
+			"Border.DarkBorderDark"		"40 40 40 196"
+			"Border.SelectionBorderSelection"		"0 0 0 196"
+			"FrameTitleBar.Font"		"Default"
+			"ListPanel.TextBgColor"		"Menu/ArmedBgColor"
+			"ListPanel.DisabledTextColor"		"LabelDimText"
+			"ListPanel.DisabledSelectedTextColor"		"ListBgColor"
+			"FrameSystemButton.Icon"		"TitleBarIcon"
+			"FrameSystemButton.DisabledIcon"		"TitleBarDisabledIcon"
+		}
+		"Fonts"
+		{
+			"Default"
+			{
+				"1"
+				{
+					"name"		"Impact"
+					"tall"		"32"
+					"weight"		"900"
+					"range"		"0x0000 0x017F"
+				}
+			}
+			"DefaultUnderline"
+			{
+				"1"
+				{
+					"name"		"Impact"
+					"tall"		"32"
+					"weight"		"900"
+					"underline"		"1"
+					"range"		"0x0000 0x017F"
+				}
+			}
+			"DefaultSmall"
+			{
+				"1"
+				{
+					"name"		"Impact"
+					"tall"		"24"
+					"weight"		"900"
+					"range"		"0x0000 0x017F"
+				}
+			}
+			"DefaultVerySmall"
+			{
+				"1"
+				{
+					"name"		"Impact"
+					"tall"		"18"
+					"weight"		"900"
+					"range"		"0x0000 0x017F"
+				}
+			}
+			"DefaultLarge"
+			{
+				"1"
+				{
+					"name"		"Impact"
+					"tall"		"48"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+				}
+			}
+			"Marlett"
+			{
+				"1"
+				{
+					"name"		"Marlett"
+					"tall"		"14"
+					"weight"		"0"
+					"symbol"		"1"
+					"range"		"0x0000 0x007F"
+				}
+			}
+		}
+		"Borders"
+		{
+			"BaseBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"4"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonDisabledBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonDepressedBorder"
+			{
+				"inset"		"1 1 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ScrollBarButtonBorder"
+			{
+				"inset"		"2 2 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TabBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TabActiveBorder"
+			{
+				"inset"		"0 0 1 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"ControlBG"
+						"offset"		"6 2"
+					}
+				}
+			}
+			"ToolTipBorder"
+			{
+				"inset"		"0 0 1 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonKeyFocusBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BorderSelection"
+						"offset"		"0 0"
+					}
+					"2"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 1"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BorderSelection"
+						"offset"		"0 0"
+					}
+					"2"
+					{
+						"color"		"BorderBright"
+						"offset"		"1 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BorderSelection"
+						"offset"		"0 0"
+					}
+					"2"
+					{
+						"color"		"BorderDark"
+						"offset"		"1 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BorderSelection"
+						"offset"		"0 0"
+					}
+					"2"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonDepressedBorder"
+			{
+				"inset"		"2 1 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ComboBoxBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"MenuBorder"
+			{
+				"inset"		"1 1 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BorderBright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BorderDark"
+						"offset"		"0 0"
+					}
+				}
+			}
+		}
+		"name"
+		{
+			"name"		"CombineScheme"
+		}
+	}
+	"resource|ClientScheme.res"
+	{
+		"Colors"
+		{
+			"Orange"		"255 176 0 255"
+			"OrangeDim"		"255 176 0 120"
+			"LightOrange"		"188 112 0 128"
+			"Red"		"192 28 0 140"
+			"Black"		"0 0 0 196"
+			"TransparentBlack"		"0 0 0 196"
+			"TransparentLightBlack"		"0 0 0 90"
+			"Blank"		"0 0 0 0"
+			"ForTesting"		"255 0 0 32"
+			"ForTesting_Magenta"		"255 0 255 255"
+			"ForTesting_MagentaDim"		"255 0 255 120"
+		}
+		"BaseSettings"
+		{
+			"FgColor"		"255 220 0 100"
+			"BgColor"		"0 0 0 76"
+			"Panel.FgColor"		"255 220 0 100"
+			"Panel.BgColor"		"0 0 0 76"
+			"BrightFg"		"255 220 0 255"
+			"DamagedBg"		"180 0 0 200"
+			"DamagedFg"		"180 0 0 230"
+			"BrightDamagedFg"		"255 0 0 255"
+			"SelectionNumberFg"		"255 220 0 255"
+			"SelectionTextFg"		"255 220 0 255"
+			"SelectionEmptyBoxBg"		"0 0 0 80"
+			"SelectionBoxBg"		"0 0 0 80"
+			"SelectionSelectedBoxBg"		"0 0 0 80"
+			"ZoomReticleColor"		"255 220 0 255"
+			"Yellowish"		"255 160 0 255"
+			"Normal"		"255 208 64 255"
+			"Caution"		"255 48 0 255"
+			"Main.Title1.X"		"76"
+			"Main.Title1.Y"		"184"
+			"Main.Title1.Color"		"255 255 255 255"
+			"Main.Title2.X"		"315"
+			"Main.Title2.Y"		"222"
+			"Main.Title2.Color"		"255 255 255 180"
+			"Main.Menu.X"		"56"
+			"Main.Menu.Y"		"240"
+			"Main.BottomBorder"		"32"
+			"Border.Bright"		"LightOrange"
+			"Border.Dark"		"LightOrange"
+			"Border.Selection"		"Blank"
+			"Button.TextColor"		"Orange"
+			"Button.BgColor"		"Blank"
+			"Button.ArmedTextColor"		"Orange"
+			"Button.ArmedBgColor"		"Red"
+			"Button.DepressedTextColor"		"Orange"
+			"Button.DepressedBgColor"		"Red"
+			"CheckButton.TextColor"		"Orange"
+			"CheckButton.SelectedTextColor"		"Orange"
+			"CheckButton.BgColor"		"TransparentBlack"
+			"CheckButton.Border1"		"Border.Dark"
+			"CheckButton.Border2"		"Border.Bright"
+			"CheckButton.Check"		"Orange"
+			"ComboBoxButton.ArrowColor"		"Orange"
+			"ComboBoxButton.ArmedArrowColor"		"Orange"
+			"ComboBoxButton.BgColor"		"TransparentBlack"
+			"ComboBoxButton.DisabledBgColor"		"Blank"
+			"Frame.BgColor"		"Orange"
+			"Frame.OutOfFocusBgColor"		"Orange"
+			"Frame.FocusTransitionEffectTime"		"0.000000"
+			"Frame.TransitionEffectTime"		"0.000000"
+			"Frame.AutoSnapRange"		"0"
+			"FrameGrip.Color1"		"Blank"
+			"FrameGrip.Color2"		"Blank"
+			"FrameTitleButton.FgColor"		"Blank"
+			"FrameTitleButton.BgColor"		"Blank"
+			"FrameTitleButton.DisabledFgColor"		"Blank"
+			"FrameTitleButton.DisabledBgColor"		"Blank"
+			"FrameSystemButton.FgColor"		"Blank"
+			"FrameSystemButton.BgColor"		"Blank"
+			"FrameTitleBar.TextColor"		"Orange"
+			"FrameTitleBar.BgColor"		"Blank"
+			"FrameTitleBar.DisabledTextColor"		"Orange"
+			"FrameTitleBar.DisabledBgColor"		"Blank"
+			"GraphPanel.FgColor"		"Orange"
+			"GraphPanel.BgColor"		"TransparentBlack"
+			"Label.TextDullColor"		"Orange"
+			"Label.TextColor"		"Orange"
+			"Label.TextBrightColor"		"Orange"
+			"Label.SelectedTextColor"		"Orange"
+			"Label.BgColor"		"Blank"
+			"Label.DisabledFgColor1"		"Blank"
+			"Label.DisabledFgColor2"		"LightOrange"
+			"ListPanel.TextColor"		"Orange"
+			"ListPanel.BgColor"		"TransparentBlack"
+			"ListPanel.SelectedTextColor"		"Black"
+			"ListPanel.SelectedBgColor"		"Red"
+			"ListPanel.SelectedOutOfFocusBgColor"		"Red"
+			"ListPanel.EmptyListInfoTextColor"		"Orange"
+			"Menu.TextColor"		"Orange"
+			"Menu.BgColor"		"TransparentBlack"
+			"Menu.ArmedTextColor"		"Orange"
+			"Menu.ArmedBgColor"		"Red"
+			"Menu.TextInset"		"6"
+			"Chat.TypingText"		"Orange"
+			"Panel.FgColor"		"OrangeDim"
+			"Panel.BgColor"		"blank"
+			"ProgressBar.FgColor"		"Orange"
+			"ProgressBar.BgColor"		"TransparentBlack"
+			"PropertySheet.TextColor"		"Orange"
+			"PropertySheet.SelectedTextColor"		"Orange"
+			"PropertySheet.TransitionEffectTime"		"0.250000"
+			"RadioButton.TextColor"		"Orange"
+			"RadioButton.SelectedTextColor"		"Orange"
+			"RichText.TextColor"		"Orange"
+			"RichText.BgColor"		"Blank"
+			"RichText.SelectedTextColor"		"Orange"
+			"RichText.SelectedBgColor"		"Blank"
+			"ScrollBarButton.FgColor"		"Orange"
+			"ScrollBarButton.BgColor"		"Blank"
+			"ScrollBarButton.ArmedFgColor"		"Orange"
+			"ScrollBarButton.ArmedBgColor"		"Blank"
+			"ScrollBarButton.DepressedFgColor"		"Orange"
+			"ScrollBarButton.DepressedBgColor"		"Blank"
+			"ScrollBarSlider.FgColor"		"Blank"
+			"ScrollBarSlider.BgColor"		"Blank"
+			"SectionedListPanel.HeaderTextColor"		"Orange"
+			"SectionedListPanel.HeaderBgColor"		"Blank"
+			"SectionedListPanel.DividerColor"		"Black"
+			"SectionedListPanel.TextColor"		"Orange"
+			"SectionedListPanel.BrightTextColor"		"Orange"
+			"SectionedListPanel.BgColor"		"TransparentLightBlack"
+			"SectionedListPanel.SelectedTextColor"		"Black"
+			"SectionedListPanel.SelectedBgColor"		"Red"
+			"SectionedListPanel.OutOfFocusSelectedTextColor"		"Black"
+			"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 255 255 32"
+			"Slider.NobColor"		"108 108 108 255"
+			"Slider.TextColor"		"127 140 127 255"
+			"Slider.TrackColor"		"31 31 31 255"
+			"Slider.DisabledTextColor1"		"117 117 117 255"
+			"Slider.DisabledTextColor2"		"30 30 30 255"
+			"TextEntry.TextColor"		"Orange"
+			"TextEntry.BgColor"		"TransparentBlack"
+			"TextEntry.CursorColor"		"Orange"
+			"TextEntry.DisabledTextColor"		"Orange"
+			"TextEntry.DisabledBgColor"		"Blank"
+			"TextEntry.SelectedTextColor"		"Black"
+			"TextEntry.SelectedBgColor"		"Red"
+			"TextEntry.OutOfFocusSelectedBgColor"		"Red"
+			"TextEntry.FocusEdgeColor"		"TransparentBlack"
+			"ToggleButton.SelectedTextColor"		"Orange"
+			"Tooltip.TextColor"		"TransparentBlack"
+			"Tooltip.BgColor"		"Red"
+			"TreeView.BgColor"		"TransparentBlack"
+			"WizardSubPanel.BgColor"		"Blank"
+			"FgColor"		"Orange"
+			"BgColor"		"TransparentBlack"
+			"ViewportBG"		"Blank"
+			"team0"		"204 204 204 255"
+			"team1"		"255 64 64 255"
+			"team2"		"153 204 255 255"
+			"MapDescriptionText"		"Orange"
+			"CT_Blue"		"153 204 255 255"
+			"T_Red"		"255 64 64 255"
+			"Hostage_Yellow"		"Panel.FgColor"
+			"HudIcon_Green"		"0 160 0 255"
+			"HudIcon_Red"		"160 0 0 255"
+			"ItemColor"		"255 167 42 200"
+			"MenuColor"		"233 208 173 255"
+			"MenuBoxBg"		"0 0 0 100"
+			"SelectionNumberFg"		"255 220 0 200"
+			"SelectionTextFg"		"255 220 0 200"
+			"SelectionEmptyBoxBg"		"0 0 0 80"
+			"SelectionBoxBg"		"0 0 0 80"
+			"SelectionSelectedBoxBg"		"0 0 0 190"
+			"HintMessageFg"		"255 255 255 255"
+			"HintMessageBg"		"0 0 0 60"
+			"ProgressBarFg"		"255 30 13 255"
+			"Main.Title1.X"		"32"
+			"Main.Title1.Y"		"180"
+			"Main.Title1.Color"		"255 255 255 255"
+			"Main.Title2.X"		"380"
+			"Main.Title2.Y"		"205"
+			"Main.Title2.Color"		"255 255 255 80"
+			"Main.Title3.X"		"460"
+			"Main.Title3.Y"		"-10"
+			"Main.Title3.Color"		"255 255 0 255"
+			"Main.Menu.X"		"32"
+			"Main.Menu.Y"		"248"
+			"Main.BottomBorder"		"32"
+			"Border.DarkBorderDark"		"40 40 40 196"
+			"Border.SelectionBorderSelection"		"0 0 0 196"
+			"Button.FocusBorderColor"		"0 0 0 255"
+			"Frame.TitleTextInsetX"		"32"
+			"Frame.ClientInsetX"		"8"
+			"Frame.ClientInsetY"		"6"
+			"FrameTitleBar.Font"		"Default"
+			"ListPanel.TextBgColor"		"Menu/ArmedBgColor"
+			"ListPanel.DisabledTextColor"		"LabelDimText"
+			"ListPanel.DisabledSelectedTextColor"		"ListBgColor"
+			"ScrollBar.Wide"		"19"
+			"FrameSystemButton.Icon"		"TitleBarIcon"
+			"FrameSystemButton.DisabledIcon"		"TitleBarDisabledIcon"
+		}
+		"Fonts"
+		{
+			"DebugFixed"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"14"
+					"weight"		"400"
+					"antialias"		"1"
+				}
+			}
+			"DebugFixedSmall"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"14"
+					"weight"		"400"
+					"antialias"		"1"
+				}
+			}
+			"Default"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"9"
+					"weight"		"700"
+					"antialias"		"1"
+					"yres"		"1 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"700"
+					"antialias"		"1"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"768 1023"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"1024 1199"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"24"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"1200 10000"
+					"additive"		"1"
+				}
+			}
+			"DefaultSmall"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"480 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"13"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"768 1023"
+					"antialias"		"1"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1024 1199"
+					"antialias"		"1"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"24"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1200 6000"
+					"antialias"		"1"
+				}
+				"6"
+				{
+					"name"		"Arial"
+					"tall"		"12"
+					"range"		"0x0000 0x00FF"
+					"weight"		"0"
+				}
+			}
+			"DefaultVerySmall"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"480 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"13"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"768 1023"
+					"antialias"		"1"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1024 1199"
+					"antialias"		"1"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"24"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1200 6000"
+					"antialias"		"1"
+				}
+				"6"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"range"		"0x0000 0x00FF"
+					"weight"		"0"
+				}
+				"7"
+				{
+					"name"		"Arial"
+					"tall"		"11"
+					"range"		"0x0000 0x00FF"
+					"weight"		"0"
+				}
+			}
+			"MenuTitle"
+			{
+				"1"
+				{
+					"name"		"Verdana Bold"
+					"tall"		"18"
+					"weight"		"500"
+				}
+			}
+			"WeaponIcons"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"64"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"WeaponIconsSelected"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"64"
+					"weight"		"0"
+					"antialias"		"1"
+					"blur"		"5"
+					"scanlines"		"2"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"Crosshairs"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"40"
+					"weight"		"0"
+					"antialias"		"0"
+					"additive"		"1"
+					"custom"		"1"
+					"yres"		"1 10000"
+				}
+			}
+			"QuickInfo"
+			{
+				"1"
+				{
+					"name"		"HL2cross"
+					"tall"		"28"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"HudNumbers"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"32"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"HudNumbersGlow"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"32"
+					"weight"		"0"
+					"blur"		"4"
+					"scanlines"		"2"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"HudNumbersSmall"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"16"
+					"weight"		"1000"
+					"additive"		"1"
+					"antialias"		"1"
+					"custom"		"1"
+				}
+			}
+			"HudSelectionNumbers"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"11"
+					"weight"		"700"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"HudHintTextLarge"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"1000"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"HudHintTextSmall"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"11"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"HudSelectionText"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"8"
+					"weight"		"700"
+					"antialias"		"1"
+					"yres"		"1 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"10"
+					"weight"		"700"
+					"antialias"		"1"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"768 1023"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"16"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"1024 1199"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"17"
+					"weight"		"1000"
+					"antialias"		"1"
+					"yres"		"1200 10000"
+				}
+			}
+			"BudgetLabel"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"14"
+					"weight"		"400"
+					"outline"		"1"
+				}
+			}
+			"DebugOverlay"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"14"
+					"weight"		"400"
+					"outline"		"1"
+				}
+			}
+			"CloseCaption_Normal"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"26"
+					"tall"		"26"
+					"weight"		"500"
+				}
+			}
+			"CloseCaption_Italic"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"26"
+					"tall"		"26"
+					"weight"		"500"
+					"italic"		"1"
+				}
+			}
+			"CloseCaption_Bold"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"26"
+					"tall"		"26"
+					"weight"		"900"
+				}
+			}
+			"CloseCaption_BoldItalic"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"26"
+					"tall"		"26"
+					"weight"		"900"
+					"italic"		"1"
+				}
+			}
+			"CloseCaption_Small"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"16"
+					"tall_hidef"		"24"
+					"weight"		"900"
+					"range"		"0x0000 0x017F"
+				}
+			}
+			"Marlett"
+			{
+				"1"
+				{
+					"name"		"Marlett"
+					"tall"		"14"
+					"weight"		"0"
+					"symbol"		"1"
+				}
+			}
+			"Trebuchet24"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"24"
+					"weight"		"900"
+					"range"		"0x0000 0x007F"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"Trebuchet18"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"18"
+					"weight"		"900"
+				}
+			}
+			"ClientTitleFont"
+			{
+				"1"
+				{
+					"name"		"HL2MP"
+					"tall"		"46"
+					"weight"		"0"
+					"additive"		"0"
+					"antialias"		"1"
+				}
+			}
+			"CreditsLogo"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"128"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"CreditsText"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"20"
+					"weight"		"900"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"CreditsOutroLogos"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"48"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"CreditsOutroText"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"9"
+					"weight"		"900"
+					"antialias"		"1"
+				}
+			}
+			"CenterPrintText"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"18"
+					"weight"		"900"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"ChatFont"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"700"
+					"yres"		"480 599"
+					"dropshadow"		"1"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"13"
+					"weight"		"700"
+					"yres"		"600 767"
+					"dropshadow"		"1"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"700"
+					"yres"		"768 1023"
+					"dropshadow"		"1"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"700"
+					"yres"		"1024 1199"
+					"dropshadow"		"1"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"24"
+					"weight"		"700"
+					"yres"		"1200 10000"
+					"dropshadow"		"1"
+				}
+			}
+			"TargetID"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"24"
+					"weight"		"900"
+					"range"		"0x0000 0x007F"
+					"antialias"		"1"
+					"additive"		"0"
+				}
+			}
+			"HL2MPTypeDeath"
+			{
+				"1"
+				{
+					"name"		"HL2MP"
+					"tall"		"32"
+					"weight"		"0"
+					"additive"		"1"
+					"antialias"		"1"
+				}
+			}
+			"DefaultVerySmallFallBack"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"10"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"480 599"
+					"antialias"		"1"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"600 1199"
+					"antialias"		"1"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"15"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1200 6000"
+					"antialias"		"1"
+				}
+			}
+			"NewWeaponIcons"
+			{
+				"1"
+				{
+					"name"		"RealBeta's Weapon Icons"
+					"tall"		"64"
+					"tall_hidef"		"58"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"NewWeaponIconsSelected"
+			{
+				"1"
+				{
+					"name"		"RealBeta's Weapon Icons"
+					"tall"		"64"
+					"tall_hidef"		"58"
+					"weight"		"0"
+					"antialias"		"1"
+					"blur"		"5"
+					"scanlines"		"2"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"NewWeaponIconsSmall"
+			{
+				"1"
+				{
+					"name"		"RealBeta's Weapon Icons"
+					"tall"		"32"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+		}
+		"Borders"
+		{
+			"BaseBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonDisabledBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonDepressedBorder"
+			{
+				"inset"		"1 1 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ScrollBarButtonBorder"
+			{
+				"inset"		"1 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ScrollBarButtonDepressedBorder"
+			{
+				"inset"		"2 2 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonBorder"
+			{
+				"inset"		"0 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"FrameBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Orange"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Orange"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Orange"
+						"offset"		"0 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Orange"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TabBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TabActiveBorder"
+			{
+				"inset"		"0 0 1 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"ControlBG"
+						"offset"		"6 2"
+					}
+				}
+			}
+			"ToolTipBorder"
+			{
+				"inset"		"0 0 1 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonKeyFocusBorder"
+			{
+				"inset"		"0 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonDepressedBorder"
+			{
+				"inset"		"0 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ComboBoxBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"MenuBorder"
+			{
+				"inset"		"1 1 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"BrowserBorder"
+			{
+				"inset"		"0 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+		}
+		"CustomFontFiles"
+		{
+			"1"		"resource/HALFLIFE2.ttf"
+			"1"		"resource/HL2MP.ttf"
+			"2"		"resource/HL2crosshairs.ttf"
+			"3"		"resource/RealBetasWeaponIcons.ttf"
+		}
+		"name"
+		{
+			"name"		"Client"
+		}
+	}
+	"resource|ClientScheme.res"
+	{
+		"Colors"
+		{
+			"Orange"		"255 176 0 255"
+			"OrangeDim"		"255 176 0 120"
+			"LightOrange"		"188 112 0 128"
+			"Red"		"192 28 0 140"
+			"Black"		"0 0 0 196"
+			"TransparentBlack"		"0 0 0 196"
+			"TransparentLightBlack"		"0 0 0 90"
+			"Blank"		"0 0 0 0"
+			"ForTesting"		"255 0 0 32"
+			"ForTesting_Magenta"		"255 0 255 255"
+			"ForTesting_MagentaDim"		"255 0 255 120"
+		}
+		"BaseSettings"
+		{
+			"FgColor"		"255 220 0 100"
+			"BgColor"		"0 0 0 76"
+			"Panel.FgColor"		"255 220 0 100"
+			"Panel.BgColor"		"0 0 0 76"
+			"BrightFg"		"255 220 0 255"
+			"DamagedBg"		"180 0 0 200"
+			"DamagedFg"		"180 0 0 230"
+			"BrightDamagedFg"		"255 0 0 255"
+			"SelectionNumberFg"		"255 220 0 255"
+			"SelectionTextFg"		"255 220 0 255"
+			"SelectionEmptyBoxBg"		"0 0 0 80"
+			"SelectionBoxBg"		"0 0 0 80"
+			"SelectionSelectedBoxBg"		"0 0 0 80"
+			"ZoomReticleColor"		"255 220 0 255"
+			"Yellowish"		"255 160 0 255"
+			"Normal"		"255 208 64 255"
+			"Caution"		"255 48 0 255"
+			"Main.Title1.X"		"76"
+			"Main.Title1.Y"		"184"
+			"Main.Title1.Color"		"255 255 255 255"
+			"Main.Title2.X"		"315"
+			"Main.Title2.Y"		"222"
+			"Main.Title2.Color"		"255 255 255 180"
+			"Main.Menu.X"		"56"
+			"Main.Menu.Y"		"240"
+			"Main.BottomBorder"		"32"
+			"Border.Bright"		"LightOrange"
+			"Border.Dark"		"LightOrange"
+			"Border.Selection"		"Blank"
+			"Button.TextColor"		"Orange"
+			"Button.BgColor"		"Blank"
+			"Button.ArmedTextColor"		"Orange"
+			"Button.ArmedBgColor"		"Red"
+			"Button.DepressedTextColor"		"Orange"
+			"Button.DepressedBgColor"		"Red"
+			"CheckButton.TextColor"		"Orange"
+			"CheckButton.SelectedTextColor"		"Orange"
+			"CheckButton.BgColor"		"TransparentBlack"
+			"CheckButton.Border1"		"Border.Dark"
+			"CheckButton.Border2"		"Border.Bright"
+			"CheckButton.Check"		"Orange"
+			"ComboBoxButton.ArrowColor"		"Orange"
+			"ComboBoxButton.ArmedArrowColor"		"Orange"
+			"ComboBoxButton.BgColor"		"TransparentBlack"
+			"ComboBoxButton.DisabledBgColor"		"Blank"
+			"Frame.BgColor"		"Orange"
+			"Frame.OutOfFocusBgColor"		"Orange"
+			"Frame.FocusTransitionEffectTime"		"0.000000"
+			"Frame.TransitionEffectTime"		"0.000000"
+			"Frame.AutoSnapRange"		"0"
+			"FrameGrip.Color1"		"Blank"
+			"FrameGrip.Color2"		"Blank"
+			"FrameTitleButton.FgColor"		"Blank"
+			"FrameTitleButton.BgColor"		"Blank"
+			"FrameTitleButton.DisabledFgColor"		"Blank"
+			"FrameTitleButton.DisabledBgColor"		"Blank"
+			"FrameSystemButton.FgColor"		"Blank"
+			"FrameSystemButton.BgColor"		"Blank"
+			"FrameTitleBar.TextColor"		"Orange"
+			"FrameTitleBar.BgColor"		"Blank"
+			"FrameTitleBar.DisabledTextColor"		"Orange"
+			"FrameTitleBar.DisabledBgColor"		"Blank"
+			"GraphPanel.FgColor"		"Orange"
+			"GraphPanel.BgColor"		"TransparentBlack"
+			"Label.TextDullColor"		"Orange"
+			"Label.TextColor"		"Orange"
+			"Label.TextBrightColor"		"Orange"
+			"Label.SelectedTextColor"		"Orange"
+			"Label.BgColor"		"Blank"
+			"Label.DisabledFgColor1"		"Blank"
+			"Label.DisabledFgColor2"		"LightOrange"
+			"ListPanel.TextColor"		"Orange"
+			"ListPanel.BgColor"		"TransparentBlack"
+			"ListPanel.SelectedTextColor"		"Black"
+			"ListPanel.SelectedBgColor"		"Red"
+			"ListPanel.SelectedOutOfFocusBgColor"		"Red"
+			"ListPanel.EmptyListInfoTextColor"		"Orange"
+			"Menu.TextColor"		"Orange"
+			"Menu.BgColor"		"TransparentBlack"
+			"Menu.ArmedTextColor"		"Orange"
+			"Menu.ArmedBgColor"		"Red"
+			"Menu.TextInset"		"6"
+			"Chat.TypingText"		"Orange"
+			"Panel.FgColor"		"OrangeDim"
+			"Panel.BgColor"		"blank"
+			"ProgressBar.FgColor"		"Orange"
+			"ProgressBar.BgColor"		"TransparentBlack"
+			"PropertySheet.TextColor"		"Orange"
+			"PropertySheet.SelectedTextColor"		"Orange"
+			"PropertySheet.TransitionEffectTime"		"0.250000"
+			"RadioButton.TextColor"		"Orange"
+			"RadioButton.SelectedTextColor"		"Orange"
+			"RichText.TextColor"		"Orange"
+			"RichText.BgColor"		"Blank"
+			"RichText.SelectedTextColor"		"Orange"
+			"RichText.SelectedBgColor"		"Blank"
+			"ScrollBarButton.FgColor"		"Orange"
+			"ScrollBarButton.BgColor"		"Blank"
+			"ScrollBarButton.ArmedFgColor"		"Orange"
+			"ScrollBarButton.ArmedBgColor"		"Blank"
+			"ScrollBarButton.DepressedFgColor"		"Orange"
+			"ScrollBarButton.DepressedBgColor"		"Blank"
+			"ScrollBarSlider.FgColor"		"Blank"
+			"ScrollBarSlider.BgColor"		"Blank"
+			"SectionedListPanel.HeaderTextColor"		"Orange"
+			"SectionedListPanel.HeaderBgColor"		"Blank"
+			"SectionedListPanel.DividerColor"		"Black"
+			"SectionedListPanel.TextColor"		"Orange"
+			"SectionedListPanel.BrightTextColor"		"Orange"
+			"SectionedListPanel.BgColor"		"TransparentLightBlack"
+			"SectionedListPanel.SelectedTextColor"		"Black"
+			"SectionedListPanel.SelectedBgColor"		"Red"
+			"SectionedListPanel.OutOfFocusSelectedTextColor"		"Black"
+			"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 255 255 32"
+			"Slider.NobColor"		"108 108 108 255"
+			"Slider.TextColor"		"127 140 127 255"
+			"Slider.TrackColor"		"31 31 31 255"
+			"Slider.DisabledTextColor1"		"117 117 117 255"
+			"Slider.DisabledTextColor2"		"30 30 30 255"
+			"TextEntry.TextColor"		"Orange"
+			"TextEntry.BgColor"		"TransparentBlack"
+			"TextEntry.CursorColor"		"Orange"
+			"TextEntry.DisabledTextColor"		"Orange"
+			"TextEntry.DisabledBgColor"		"Blank"
+			"TextEntry.SelectedTextColor"		"Black"
+			"TextEntry.SelectedBgColor"		"Red"
+			"TextEntry.OutOfFocusSelectedBgColor"		"Red"
+			"TextEntry.FocusEdgeColor"		"TransparentBlack"
+			"ToggleButton.SelectedTextColor"		"Orange"
+			"Tooltip.TextColor"		"TransparentBlack"
+			"Tooltip.BgColor"		"Red"
+			"TreeView.BgColor"		"TransparentBlack"
+			"WizardSubPanel.BgColor"		"Blank"
+			"FgColor"		"Orange"
+			"BgColor"		"TransparentBlack"
+			"ViewportBG"		"Blank"
+			"team0"		"204 204 204 255"
+			"team1"		"255 64 64 255"
+			"team2"		"153 204 255 255"
+			"MapDescriptionText"		"Orange"
+			"CT_Blue"		"153 204 255 255"
+			"T_Red"		"255 64 64 255"
+			"Hostage_Yellow"		"Panel.FgColor"
+			"HudIcon_Green"		"0 160 0 255"
+			"HudIcon_Red"		"160 0 0 255"
+			"ItemColor"		"255 167 42 200"
+			"MenuColor"		"233 208 173 255"
+			"MenuBoxBg"		"0 0 0 100"
+			"SelectionNumberFg"		"255 220 0 200"
+			"SelectionTextFg"		"255 220 0 200"
+			"SelectionEmptyBoxBg"		"0 0 0 80"
+			"SelectionBoxBg"		"0 0 0 80"
+			"SelectionSelectedBoxBg"		"0 0 0 190"
+			"HintMessageFg"		"255 255 255 255"
+			"HintMessageBg"		"0 0 0 60"
+			"ProgressBarFg"		"255 30 13 255"
+			"Main.Title1.X"		"32"
+			"Main.Title1.Y"		"180"
+			"Main.Title1.Color"		"255 255 255 255"
+			"Main.Title2.X"		"380"
+			"Main.Title2.Y"		"205"
+			"Main.Title2.Color"		"255 255 255 80"
+			"Main.Title3.X"		"460"
+			"Main.Title3.Y"		"-10"
+			"Main.Title3.Color"		"255 255 0 255"
+			"Main.Menu.X"		"32"
+			"Main.Menu.Y"		"248"
+			"Main.BottomBorder"		"32"
+			"Border.DarkBorderDark"		"40 40 40 196"
+			"Border.SelectionBorderSelection"		"0 0 0 196"
+			"Button.FocusBorderColor"		"0 0 0 255"
+			"Frame.TitleTextInsetX"		"32"
+			"Frame.ClientInsetX"		"8"
+			"Frame.ClientInsetY"		"6"
+			"FrameTitleBar.Font"		"Default"
+			"ListPanel.TextBgColor"		"Menu/ArmedBgColor"
+			"ListPanel.DisabledTextColor"		"LabelDimText"
+			"ListPanel.DisabledSelectedTextColor"		"ListBgColor"
+			"ScrollBar.Wide"		"19"
+			"FrameSystemButton.Icon"		"TitleBarIcon"
+			"FrameSystemButton.DisabledIcon"		"TitleBarDisabledIcon"
+		}
+		"Fonts"
+		{
+			"DebugFixed"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"14"
+					"weight"		"400"
+					"antialias"		"1"
+				}
+			}
+			"DebugFixedSmall"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"14"
+					"weight"		"400"
+					"antialias"		"1"
+				}
+			}
+			"Default"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"9"
+					"weight"		"700"
+					"antialias"		"1"
+					"yres"		"1 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"700"
+					"antialias"		"1"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"768 1023"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"1024 1199"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"24"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"1200 10000"
+					"additive"		"1"
+				}
+			}
+			"DefaultSmall"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"480 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"13"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"768 1023"
+					"antialias"		"1"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1024 1199"
+					"antialias"		"1"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"24"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1200 6000"
+					"antialias"		"1"
+				}
+				"6"
+				{
+					"name"		"Arial"
+					"tall"		"12"
+					"range"		"0x0000 0x00FF"
+					"weight"		"0"
+				}
+			}
+			"DefaultVerySmall"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"480 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"13"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"768 1023"
+					"antialias"		"1"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1024 1199"
+					"antialias"		"1"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"24"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1200 6000"
+					"antialias"		"1"
+				}
+				"6"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"range"		"0x0000 0x00FF"
+					"weight"		"0"
+				}
+				"7"
+				{
+					"name"		"Arial"
+					"tall"		"11"
+					"range"		"0x0000 0x00FF"
+					"weight"		"0"
+				}
+			}
+			"MenuTitle"
+			{
+				"1"
+				{
+					"name"		"Verdana Bold"
+					"tall"		"18"
+					"weight"		"500"
+				}
+			}
+			"WeaponIcons"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"64"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"WeaponIconsSelected"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"64"
+					"weight"		"0"
+					"antialias"		"1"
+					"blur"		"5"
+					"scanlines"		"2"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"Crosshairs"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"40"
+					"weight"		"0"
+					"antialias"		"0"
+					"additive"		"1"
+					"custom"		"1"
+					"yres"		"1 10000"
+				}
+			}
+			"QuickInfo"
+			{
+				"1"
+				{
+					"name"		"HL2cross"
+					"tall"		"28"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"HudNumbers"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"32"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"HudNumbersGlow"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"32"
+					"weight"		"0"
+					"blur"		"4"
+					"scanlines"		"2"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"HudNumbersSmall"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"16"
+					"weight"		"1000"
+					"additive"		"1"
+					"antialias"		"1"
+					"custom"		"1"
+				}
+			}
+			"HudSelectionNumbers"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"11"
+					"weight"		"700"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"HudHintTextLarge"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"1000"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"HudHintTextSmall"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"11"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"HudSelectionText"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"8"
+					"weight"		"700"
+					"antialias"		"1"
+					"yres"		"1 599"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"10"
+					"weight"		"700"
+					"antialias"		"1"
+					"yres"		"600 767"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"768 1023"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"16"
+					"weight"		"900"
+					"antialias"		"1"
+					"yres"		"1024 1199"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"17"
+					"weight"		"1000"
+					"antialias"		"1"
+					"yres"		"1200 10000"
+				}
+			}
+			"BudgetLabel"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"14"
+					"weight"		"400"
+					"outline"		"1"
+				}
+			}
+			"DebugOverlay"
+			{
+				"1"
+				{
+					"name"		"Courier New"
+					"tall"		"14"
+					"weight"		"400"
+					"outline"		"1"
+				}
+			}
+			"CloseCaption_Normal"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"26"
+					"tall"		"26"
+					"weight"		"500"
+				}
+			}
+			"CloseCaption_Italic"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"26"
+					"tall"		"26"
+					"weight"		"500"
+					"italic"		"1"
+				}
+			}
+			"CloseCaption_Bold"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"26"
+					"tall"		"26"
+					"weight"		"900"
+				}
+			}
+			"CloseCaption_BoldItalic"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"26"
+					"tall"		"26"
+					"weight"		"900"
+					"italic"		"1"
+				}
+			}
+			"CloseCaption_Small"
+			{
+				"1"
+				{
+					"name"		"Tahoma"
+					"tall"		"16"
+					"tall_hidef"		"24"
+					"weight"		"900"
+					"range"		"0x0000 0x017F"
+				}
+			}
+			"Marlett"
+			{
+				"1"
+				{
+					"name"		"Marlett"
+					"tall"		"14"
+					"weight"		"0"
+					"symbol"		"1"
+				}
+			}
+			"Trebuchet24"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"24"
+					"weight"		"900"
+					"range"		"0x0000 0x007F"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"Trebuchet18"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"18"
+					"weight"		"900"
+				}
+			}
+			"ClientTitleFont"
+			{
+				"1"
+				{
+					"name"		"HL2MP"
+					"tall"		"46"
+					"weight"		"0"
+					"additive"		"0"
+					"antialias"		"1"
+				}
+			}
+			"CreditsLogo"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"128"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"CreditsText"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"20"
+					"weight"		"900"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"CreditsOutroLogos"
+			{
+				"1"
+				{
+					"name"		"HalfLife2"
+					"tall"		"48"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"CreditsOutroText"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"9"
+					"weight"		"900"
+					"antialias"		"1"
+				}
+			}
+			"CenterPrintText"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"18"
+					"weight"		"900"
+					"antialias"		"1"
+					"additive"		"1"
+				}
+			}
+			"ChatFont"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"700"
+					"yres"		"480 599"
+					"dropshadow"		"1"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"13"
+					"weight"		"700"
+					"yres"		"600 767"
+					"dropshadow"		"1"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"14"
+					"weight"		"700"
+					"yres"		"768 1023"
+					"dropshadow"		"1"
+				}
+				"4"
+				{
+					"name"		"Verdana"
+					"tall"		"20"
+					"weight"		"700"
+					"yres"		"1024 1199"
+					"dropshadow"		"1"
+				}
+				"5"
+				{
+					"name"		"Verdana"
+					"tall"		"24"
+					"weight"		"700"
+					"yres"		"1200 10000"
+					"dropshadow"		"1"
+				}
+			}
+			"TargetID"
+			{
+				"1"
+				{
+					"name"		"Trebuchet MS"
+					"tall"		"24"
+					"weight"		"900"
+					"range"		"0x0000 0x007F"
+					"antialias"		"1"
+					"additive"		"0"
+				}
+			}
+			"HL2MPTypeDeath"
+			{
+				"1"
+				{
+					"name"		"HL2MP"
+					"tall"		"32"
+					"weight"		"0"
+					"additive"		"1"
+					"antialias"		"1"
+				}
+			}
+			"DefaultVerySmallFallBack"
+			{
+				"1"
+				{
+					"name"		"Verdana"
+					"tall"		"10"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"480 599"
+					"antialias"		"1"
+				}
+				"2"
+				{
+					"name"		"Verdana"
+					"tall"		"12"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"600 1199"
+					"antialias"		"1"
+				}
+				"3"
+				{
+					"name"		"Verdana"
+					"tall"		"15"
+					"weight"		"0"
+					"range"		"0x0000 0x017F"
+					"yres"		"1200 6000"
+					"antialias"		"1"
+				}
+			}
+			"NewWeaponIcons"
+			{
+				"1"
+				{
+					"name"		"RealBeta's Weapon Icons"
+					"tall"		"64"
+					"tall_hidef"		"58"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"NewWeaponIconsSelected"
+			{
+				"1"
+				{
+					"name"		"RealBeta's Weapon Icons"
+					"tall"		"64"
+					"tall_hidef"		"58"
+					"weight"		"0"
+					"antialias"		"1"
+					"blur"		"5"
+					"scanlines"		"2"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+			"NewWeaponIconsSmall"
+			{
+				"1"
+				{
+					"name"		"RealBeta's Weapon Icons"
+					"tall"		"32"
+					"weight"		"0"
+					"antialias"		"1"
+					"additive"		"1"
+					"custom"		"1"
+				}
+			}
+		}
+		"Borders"
+		{
+			"BaseBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonDisabledBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"BgColor"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TitleButtonDepressedBorder"
+			{
+				"inset"		"1 1 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ScrollBarButtonBorder"
+			{
+				"inset"		"1 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ScrollBarButtonDepressedBorder"
+			{
+				"inset"		"2 2 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonBorder"
+			{
+				"inset"		"0 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"FrameBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Orange"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Orange"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Orange"
+						"offset"		"0 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Orange"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TabBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"TabActiveBorder"
+			{
+				"inset"		"0 0 1 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"ControlBG"
+						"offset"		"6 2"
+					}
+				}
+			}
+			"ToolTipBorder"
+			{
+				"inset"		"0 0 1 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonKeyFocusBorder"
+			{
+				"inset"		"0 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ButtonDepressedBorder"
+			{
+				"inset"		"0 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 1"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"ComboBoxBorder"
+			{
+				"inset"		"0 0 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"MenuBorder"
+			{
+				"inset"		"1 1 1 1"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 1"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"1 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+			}
+			"BrowserBorder"
+			{
+				"inset"		"0 0 0 0"
+				"Left"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Right"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+				"Top"
+				{
+					"1"
+					{
+						"color"		"Border.Dark"
+						"offset"		"0 0"
+					}
+				}
+				"Bottom"
+				{
+					"1"
+					{
+						"color"		"Border.Bright"
+						"offset"		"0 0"
+					}
+				}
+			}
+		}
+		"CustomFontFiles"
+		{
+			"1"		"resource/HALFLIFE2.ttf"
+			"1"		"resource/HL2MP.ttf"
+			"2"		"resource/HL2crosshairs.ttf"
+			"3"		"resource/RealBetasWeaponIcons.ttf"
+		}
+		"name"
+		{
+			"name"		"Client"
+		}
+	}
+}
